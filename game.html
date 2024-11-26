@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7ajara Wara9 Me9ass 1vs1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game">
+        <h1>Game: 7ajara, Wara9, Me9ass 1vs1</h1>
+        
+        <div id="players">
+            <div>
+                <h2>Joueur 1</h2>
+                <div id="choices1">
+                    <button class="choice" data-choice="rock">🎲 7ajara</button>
+                    <button class="choice" data-choice="paper">📃 Wara9</button>
+                    <button class="choice" data-choice="scissors">✂ Me9ass</button>
+                </div>
+            </div>
+            <div>
+                <h2>Joueur 2</h2>
+                <div id="choices2">
+                    <button class="choice" data-choice="rock">🎲 7ajara</button>
+                    <button class="choice" data-choice="paper">📃 Wara9</button>
+                    <button class="choice" data-choice="scissors">✂ Me9ass</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="result">
+            <h2>Choisissez vos gestes!</h2>
+        </div>
+        
+        <button id="reset" onclick="resetGame()">Recommencer</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
